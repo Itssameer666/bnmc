@@ -1,0 +1,214 @@
+.smi
+{
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+}
+.social-icon
+{
+    height:30px;
+    width: 30px;
+    
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    background-color: white;
+}
+.smi-1
+{
+    height: 90px;
+    width: 90px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+.text-maroon
+{
+    color: maroon;
+}
+.bg-maroon
+{
+    background-color: maroon;
+    color: white;
+}
+.border-bottom-maroon
+{
+    border-bottom:2px dashed maroon;
+}
+
+.btn-cas:hover
+{
+    background-color: maroon;
+    color: white;
+}
+.bg-h
+{
+    background-color: #ffa500;
+}
+.mar:hover
+{
+    color: aquamarine;
+     background-color: #f0f9cc;
+    
+}
+.sidebar-bg
+{
+    background-color: #f0f9cc;
+}
+.heading
+{
+    height: 7px;
+    width: 70px;
+    background-color:green;
+    margin: 0px auto;
+    position: relative;
+}
+.heading::before
+{
+    content: '';
+    height: 3px;
+    width: 35px;
+    background-color: grey;
+    position: absolute;
+    left: -35px;
+    top: 30%;
+}
+.heading::after
+{
+    content: '';
+    height: 3px;
+    width: 35px;
+    background-color: grey;
+    position: absolute;
+    right: -35px;
+    top: 30%;
+}
+.mentor-shadow
+{
+    
+    width: 80%;
+    background-color: white;
+    box-shadow: 9px 9px 9px rgb(145, 139, 139);
+}
+.bg-rgba
+{
+    
+    background-color: linear-gradient(rgb(145, 61, 47,0.7));
+}
+.bg-image
+{
+    
+    background:linear-gradient(rgba(128,0,0,0.3)),url('../images/bg.jpg');
+    background-attachment: fixed;
+    
+}
+.bg-image1
+{
+    
+    background:linear-gradient(rgba(128,0,0,0.8)),url('../images/bg.jpg');
+    
+}
+.avtar
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    
+} 
+.button
+{
+    height: 50px;
+    width: 180px;
+    position:fixed;
+    top: 300px;
+    left: -70px;
+    transform: rotate(90deg);
+    background-color: maroon;
+    border-radius: 20px 20px 0px 0px;
+    animation: colorChange 1s infinite ;
+}
+@keyframes colorChange {
+    from { background-color: maroon; }
+    to { background-color:rgba(255, 174, 0, 0.774); }
+}
+.button1
+{
+    height: 50px;
+    width: 180px;
+    position:fixed;
+    bottom: 170px;
+   right: -64px;
+    transform: rotate(270deg);
+    background-color: maroon;
+    border-radius: 20px 20px 0px 0px;
+    animation: colorChange 1s infinite ;
+}
+@keyframes colorChange {
+    from { background-color: maroon; }
+    to { background-color:rgba(255, 174, 0, 0.774); }
+}
+.arrow-btn
+{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: #5cb874 !important;
+    color: white !important;
+    border-radius: 5px;
+    text-align: center;
+    border: 0px;
+
+}
+table thead th 
+{
+    background-color: maroon !important;
+    color: white !important;
+}
+.cont-icon{
+    height: 50px;
+    width: 50px;
+    
+    border-radius: 50%;
+    background-color: #eaf6ed;
+    color:maroon;
+}
+.cont-icon:hover
+{
+    background-color: rgba(92, 184, 127, 0.937);
+   
+
+
+
+}
+.mentor-shadow-1
+{
+    
+    
+    background-color: white;
+    box-shadow: 9px 9px 9px rgb(145, 139, 139);
+}
+.border-y-green
+{
+    border-top: 5px solid #5cb874;
+    border-bottom: 5px solid #5cb874;
+
+}
+.input-box
+{
+    height: 35px;
+    width: 400px;
+    border-radius: 5px;
+}
+.input-box-1
+{
+    height: 35px;
+    width: 400px;
+    border-radius: 5px;
+    background-color: #696cff !important;
+    color: white !important;
+}
